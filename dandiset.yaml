@@ -2,10 +2,21 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000126
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.5.1/context.json
+about: []
+access: []
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 171408
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Ly, Ryan (2021) NWB API Test Data (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000126/draft
 contributor:
@@ -18,11 +29,21 @@ contributor:
   schemaKey: Person
 description: This dandiset consists of NWB files used for testing the NWB APIs (PyNWB,
   MatNWB).
+ethicsApproval: []
 id: DANDI:000126/draft
 identifier: DANDI:000126
+keywords: []
+license:
+- spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000126/versions/draft/assets/
 name: NWB API Test Data
+protocol: []
+relatedResource: []
+repository: https://dandiarchive.org/
+schemaKey: Dandiset
 schemaVersion: 0.5.1
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000126/draft
 version: draft
+wasGeneratedBy: []
