@@ -17,8 +17,8 @@ assetsSummary:
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Ly, Ryan (2021) NWB API Test Data (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000126/draft
+citation: Ly, Ryan (2021) NWB API Test Data (Version 0.210813.0327) [Data set]. DANDI
+  archive. https://doi.org/10.48324/dandi.000126/0.210813.0327
 contributor:
 - affiliation: []
   email: rly@lbl.gov
@@ -27,23 +27,37 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+datePublished: '2021-08-13T03:27:00.667044'
 description: This dandiset consists of NWB files used for testing the NWB APIs (PyNWB,
   MatNWB).
+doi: 10.48324/dandi.000126/0.210813.0327
 ethicsApproval: []
-id: DANDI:000126/draft
+id: DANDI:000126/0.210813.0327
 identifier: DANDI:000126
 keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000126/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000126/0.210813.0327/assets.yaml
 name: NWB API Test Data
 protocol: []
+publishedBy:
+  endDate: '2021-08-13T03:27:00.667044'
+  id: urn:uuid:f9a7e288-ed42-43bb-bb80-583b1db598e9
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-08-13T03:27:00.667044'
+  wasAssociatedWith:
+  - id: urn:uuid:30175421-f6b3-4b3d-9f9f-12ddcaaa7df5
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.5.1
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000126/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000126/0.210813.0327
+version: 0.210813.0327
 wasGeneratedBy: []
