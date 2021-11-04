@@ -10,13 +10,19 @@ assetsSummary:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 171408
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 167058036
+  numberOfFiles: 5
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
-  species: []
-  variableMeasured: []
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
 citation: Ly, Ryan (2021) NWB API Test Data (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000126/draft
 contributor:
