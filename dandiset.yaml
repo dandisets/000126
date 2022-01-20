@@ -15,7 +15,7 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   numberOfBytes: 167058036
   numberOfFiles: 5
-  numberOfSubjects: 3
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -23,7 +23,7 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-citation: Ly, Ryan (2021) NWB API Test Data (Version draft) [Data set]. DANDI archive.
+citation: Ly, Ryan (2022) NWB API Test Data (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000126/draft
 contributor:
 - affiliation: []
